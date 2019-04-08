@@ -4,84 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
     <title>TopWorldCoins</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">English</a>
-            <a href="#">EUR</a>
-            <span>Welcome to TopWorldCoins! <a href="#">Join Free</a> or <a href="#">Sign in</a></span>
-            <a href="#">Blog</a>
-            <a href="#">Support</a>
-            <a href="#">My Account</a>
-            <a href="#">My Whishlist</a>
-            <a href="#">Checkout</a>
-            <a href="#">Log In</a>
+    <header class="container">
+        <nav class="menu-top">
+            <p class="lang-curr-convertion">
+                <a href="#">English</a>
+                <a href="#">EUR</a>   
+            </p>
+            <p class="account-menu">
+                <span>Welcome to TopWorldCoins! <a href="#" class="login">Join Free</a> or <a href="#" class="login">Sign in</a></span>
+                <a href="#">Blog</a>
+                <a href="#">Support</a>
+                <a href="#">My Account</a>
+                <a href="#">&#10084;</a>
+                <a href="#">&#9745;</a>
+                <a href="#">Log In</a>
+            </p>
         </nav>
-        <div>
-            <div>
+        <div class="menu-middle">
+            <div class="logo">
                 <a href="index.html"><img src="img/twc-logo.jpg" alt="twc-logo" width="272"></a>
             </div>
-            <div>
+            <div class="search">
                 <input type="search" id="site-search" name="q"
                 aria-label="Search through site content">
-                <button>Search</button>
+                <button class="search-button">&#10004;</button>
             </div>
-            <div>
+            <div class="shopping-cart">
                 <span> <a href="#">Shopping cart</a></span>
             </div>
         </div>
-        <nav>
-            <a href="#">SHOP BY THEME</a>
-            <a href="#">SHOP BY COUNTRY</a>
-            <a href="#">SHOP BY FEATURES</a>
-            <a href="#">GIFTS</a>
-            <a href="#">NEW ARRIVALS</a>
-            <a href="#">HOT THIS WEEK</a>
-            <a href="#">SALE</a>
+        <nav class="menu-main">
+            <a href="#">shop by theme</a>
+            <a href="#">shop by country</a>
+            <a href="#">shop by features</a>
+            <a href="#">gifts</a>
+            <a href="#">new arrivals</a>
+            <a href="#">hot this week</a>
+            <a href="#">sale</a>
         </nav>
     </header>
     
-    <div>
-        <a href="index.html"><img src="img/baner.jpg" alt="main-baner" width="970"></a>
+    <div class="banner">
+        <img src="img/baner.jpg" alt="main-baner">
     </div>
-    
     <div>
-        <div>
-             <a href="#"><b>NEW ARRIVALS</b></a>
-             <a href="#"><b>&lt;</b></a>
-             <a href="#"><b>&gt;</b></a>
-        </div>
-        <hr>
-        <div>
-             <a href="#"><img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178"></a><br>
-             <a href="#"><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178"></a><br>
-             <a href="#"><b>USA 2016 1$ Liberty Eagle Walking on Moon Ounce of Space 1 oz BU Silver Coin with</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178"></a><br>
-             <a href="#"><b>China 2016 10 Yuan Chinese Panda Ounce of Space 30g BU Silver Coin with Nantan </b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178"></a><br>
-             <a href="#"><b>Belarus 2016 20 rubles Year of the Rooster 2017 Chinese Lunar Calendar Proof-like Silver Coin</b></a><br>
-             <span><b>99.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
+        <section class="products">
+            <h3>NEW ARRIVALS</h3>
+            <hr>
+            <div class="products-list">
+                <article class="product-card">
+                    <img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
     <div>
         <table>
@@ -96,151 +120,231 @@
         </table>
     </div>
     <div>
-        <div>
-             <a href="#"><b>BEST SELLERS</b></a>
-             <a href="#"><b>&lt;</b></a>
-             <a href="#"><b>&gt;</b></a>
-        </div>
-        <hr>
-        <div>
-             <a href="#"><img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178"></a><br>
-             <a href="#"><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178"></a><br>
-             <a href="#"><b>USA 2016 1$ Liberty Eagle Walking on Moon Ounce of Space 1 oz BU Silver Coin with</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178"></a><br>
-             <a href="#"><b>China 2016 10 Yuan Chinese Panda Ounce of Space 30g BU Silver Coin with Nantan </b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178"></a><br>
-             <a href="#"><b>Belarus 2016 20 rubles Year of the Rooster 2017 Chinese Lunar Calendar Proof-like Silver Coin</b></a><br>
-             <span><b>99.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
+        <section class="products">
+            <h3>BEST SELLERS</h3>
+            <hr>
+            <div class="products-list">
+                <article class="product-card">
+                    <img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
     <div>
-        <div>
-             <a href="#"><b>COMING SOON</b></a>
-             <a href="#"><b>&lt;</b></a>
-             <a href="#"><b>&gt;</b></a>
-        </div>
-        <hr>
-        <div>
-             <a href="#"><img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178"></a><br>
-             <a href="#"><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178"></a><br>
-             <a href="#"><b>USA 2016 1$ Liberty Eagle Walking on Moon Ounce of Space 1 oz BU Silver Coin with</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178"></a><br>
-             <a href="#"><b>China 2016 10 Yuan Chinese Panda Ounce of Space 30g BU Silver Coin with Nantan </b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178"></a><br>
-             <a href="#"><b>Belarus 2016 20 rubles Year of the Rooster 2017 Chinese Lunar Calendar Proof-like Silver Coin</b></a><br>
-             <span><b>99.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
+        <section class="products">
+            <h3>COMING SOON</h3>
+            <hr>
+            <div class="products-list">
+                <article class="product-card">
+                    <img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
     <div>
-        <div>
-             <a href="#"><b>BLOG</b></a>
-             <a href="#"><b>&lt;</b></a>
-             <a href="#"><b>&gt;</b></a>
-        </div>
-        <hr>
-        <div>
-             <a href="#"><img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178"></a><br>
-             <a href="#"><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178"></a><br>
-             <a href="#"><b>USA 2016 1$ Liberty Eagle Walking on Moon Ounce of Space 1 oz BU Silver Coin with</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178"></a><br>
-             <a href="#"><b>China 2016 10 Yuan Chinese Panda Ounce of Space 30g BU Silver Coin with Nantan </b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178"></a><br>
-             <a href="#"><b>Belarus 2016 20 rubles Year of the Rooster 2017 Chinese Lunar Calendar Proof-like Silver Coin</b></a><br>
-             <span><b>99.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
+        <section class="products">
+            <h3>BLOG</h3>
+            <hr>
+            <div class="products-list">
+                <article class="product-card">
+                    <img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
     <div>
-        <div>
-             <a href="#"><b>COLLECTIONS</b></a>
-             <a href="#"><b>&lt;</b></a>
-             <a href="#"><b>&gt;</b></a>
-        </div>
-        <hr>
-        <div>
-             <a href="#"><img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178"></a><br>
-             <a href="#"><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178"></a><br>
-             <a href="#"><b>USA 2016 1$ Liberty Eagle Walking on Moon Ounce of Space 1 oz BU Silver Coin with</b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178"></a><br>
-             <a href="#"><b>China 2016 10 Yuan Chinese Panda Ounce of Space 30g BU Silver Coin with Nantan </b></a><br>
-             <span><b>89.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
-        <div>
-             <a href="#"><img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178"></a><br>
-             <a href="#"><b>Belarus 2016 20 rubles Year of the Rooster 2017 Chinese Lunar Calendar Proof-like Silver Coin</b></a><br>
-             <span><b>99.00 EUR</b></span><br>
-             <a href="#">ADD TO CART</a>
-             <a href="#">ADD TO WISHLIST</a>
-        </div>
+        <section class="products">
+            <h3>COLLECTIONS</h3>
+            <hr>
+            <div class="products-list">
+                <article class="product-card">
+                    <img src="img/liberty-mars.jpg" alt="us liberty mars silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/liberty-moon.jpg" alt="us liberty moon silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/china-panda.jpg" alt="chinese panda silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="img/by-rooster-year.jpg" alt="belarus year of the rooster silver coin" width="178">
+                    <h5><b>United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian</b></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.</p>
+                    <p class="price">89.9 EUR</p>
+                    <div class="button-conteiner">
+                        <button class="action-buttons">add to cart</button>
+                        <button class="action-buttons">&#10084;</button>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
-    <hr>
-    <footer>
+    <footer class="footer">
+        <div class="footer-top">
         <section id="about-us">
             <h3>ABOUT US</h3>
             <p>
@@ -274,8 +378,9 @@
                     <li>Email: <a href="#">info@topworldcoins.com</a></li>
                 </ul>
         </section>
+        </div>
         <hr>
-        <section>
+        <section class="social">
             <h2>FOLLOW US:</h2>
             <ul>
                 <li><a href="#">F</a></li>

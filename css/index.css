@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+h1, h2, h3, p, div, nav {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Exo', sans-serif;
+}
+
+body {
+    max-width: 970px;
+    margin: auto;    
+}
+
+nav.menu-top {
+    display: flex;
+}
+
+.menu-top {
+    background-color: #eeeeee;
+    font-size: 0.8em;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.menu-top p a {
+    display: inline;
+    text-decoration: none;
+    margin: 5px 5px ;
+}
+
+.menu-top p a:hover {
+    text-decoration: underline;
+}
+
+.lang-curr-convertion {
+    margin: 5px 5px;
+   
+}
+
+.account-menu {
+   margin: 5px 5px;
+}
+
+a.login {
+    color: LightSkyBlue;
+}
+
+.menu-middle  {
+    background-color: #ffffff;
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 30px 5px;
+    justify-content: space-between;
+}
+
+div.menu-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.search {
+    margin-left: 150px;
+}
+
+input#site-search{
+    padding: 9px;
+    font-size: 17px;
+    border: 1px solid #dddddd;
+    width: 300px;
+    background: white;
+}
+
+button.search-button {
+    padding: 10px 17px;
+    background: #666666 ;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+
+button.search-button:hover {
+    background: SandyBrown;
+}
+
+button.action-buttons {
+    padding: 10px;
+    background: white ;
+    color: grey;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+button.action-buttons:hover {
+    background: SandyBrown;
+    color: black;
+}
+
+.menu-main {
+    display: flex;
+    background-color: #666666;
+    padding: 15px;
+    margin: 5px 0;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+nav.menu-main {
+    flex: 1;
+}
+
+.menu-main a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.menu-main a:hover {
+    text-decoration: underline;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.products {
+    margin: 20px 0;
+}
+
+.product-card {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.product-card p,
+.product-card h5 {
+    padding: 0 5px;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+}
+
+p.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #dddddd;
+    font-size: 0.8em;
+    color: #333333;
+    padding: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    color: SandyBrown;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.social {
+    text-align: center;
+    margin: 0 0;
+}
+
+.social li {
+    display: inline;
+    font-size: 1.2em;
+}
+
+.social ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+div.footer-top h3, ul {
+    text-align: left;
+    padding: 0;
+}
+
+@media (min-width: 320px) {
+    div.footer-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 480px) {
+    .products-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    
+    div.footer-top {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+}
+
+@media (min-width: 660px) {
+    .products-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 970px) {
+    .products-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
