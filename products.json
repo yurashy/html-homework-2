@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian",
+        "image": "liberty-mars.jpg",
+        "description": "Large drone for most critical missions. Can carry load.",
+        "price": 499.99
+    },
+    {
+        "id": "2",
+        "title": "United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian",
+        "image": "liberty-moon.jpg",
+        "description": "Small drone. Can fly undetected.",
+        "price": 199.99
+    },
+    {
+        "id": "3",
+        "title": "United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian",
+        "image": "china-panda.jpg",
+        "description": "Nice-looking drone in blue color. Has built-in HD camera",
+        "price": 249.99
+    },
+    {
+        "id": "4",
+        "title": "United States 2016 1$ Liberty walking on Mars Artist Colour, Genuine Martian",
+        "image": "by-rooster-year.jpg",
+        "description": "Nice-looking drone in red color",
+        "price": 229.99
+    }
+]
